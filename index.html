@@ -6,79 +6,91 @@
 -->
 <html>
 <head>
-    <title>Juan Lizarazo</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <!--[if lte IE 8]>
-    <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="assets/css/main.css"/>
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
+  <title>Juan Lizarazo</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <!--[if lte IE 8]>
+  <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" href="assets/css/main.css"/>
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
 </head>
 <body id="top">
 
 <!-- Header -->
 <header id="header">
-    <a href="#" class="image avatar"><img src="images/avatar.jpg" alt=""/></a>
-    <h1><strong>I am Juan Lizarazo</strong>, Software Engineer</h1>
-    <br>
-    sass css html javascript nodejs ruby Ruby On Rails docker amazon web services (aws) digital ocean
-    heroku git php mysql mongodb cassandra coffeescript angular expressjs microservices automated testing
-    bash linux restful api software development full cycle web apps ux
+  <a href="#" class="image avatar"><img src="images/avatar.jpg" alt=""/></a>
+  <h1><strong>I am Juan Lizarazo</strong>, Software Engineer</h1>
+  <br>
+  sass css html javascript nodejs ruby Ruby On Rails docker amazon web services (aws) digital ocean
+  heroku git php mysql mongodb cassandra coffeescript angular expressjs microservices automated testing
+  bash linux restful api software development full cycle web apps ux
 </header>
 
 <!-- Main -->
 <div id="main">
-    <!-- Three -->
-    <section id="one">
-        <h2>Drop me a line</h2>
-        <div class="row">
-            <div class="8u 12u$(small)">
-                <form method="post" action="http://formspree.io/hello@juanlizarazo.com">
-                    <div class="row uniform 50%">
-                        <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name"/></div>
-                        <div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email"/>
-                        </div>
-                        <div class="12u$">
-                            <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-                        </div>
-                    </div>
-                    <br>
-                    <ul class="actions">
-                        <li><input type="submit" value="Send Message"/></li>
-                    </ul>
-                </form>
+  <!-- Three -->
+  <section id="one">
+    <h2>Drop me a line</h2>
+    <div class="row">
+      <div class="8u 12u$(small)">
+        <div id="success-email-message"><b>Thank you for your message!! I'll get back to you soon.</b><br><br></div>
+        <form method="post" action="http://formspree.io/hello@juanlizarazo.com">
+          <div class="row uniform 50%">
+            <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name"/></div>
+            <div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email"/>
             </div>
-            <div class="4u$ 12u$(small)">
-                <ul class="labeled-icons">
-                    <li>
-                        <h3 class="icon fa-home"><span class="label"></span></h3>
-                        Utah, United States
-                    </li>
-                    <li>
-                        <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-                        <a href="#">hello@juanlizarazo.com</a>
-                    </li>
-                </ul>
+            <div class="12u$">
+              <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
             </div>
-        </div>
-    </section>
+            <input type="hidden" name="_next" value="http://juanlizarazo.com/?email=success"/>
+            <input type="hidden" name="_subject" value="message from juanlizarazo.com"/>
+          </div>
+          <br>
+          <ul class="actions">
+            <li><input type="submit" value="Send Message"/></li>
+          </ul>
+        </form>
+      </div>
+      <div class="4u$ 12u$(small)">
+        <ul class="labeled-icons">
+          <li>
+            <h3 class="icon fa-home"><span class="label"></span></h3>
+            Utah, United States
+          </li>
+          <li>
+            <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+            <a href="mailto:hello@juanlizarazo.com?Subject=message from juanlizarazo.com">hello@juanlizarazo.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </div>
 
 <!-- Footer -->
 <footer id="footer">
-    <ul class="icons">
-        <li><a href="https://github.com/juanlizarazo" class="icon fa-github" target="_blank"><span
-                class="label">Github</span></a></li>
-        <li><a href="https://linkedin.com/in/juanlizarazo" class="icon fa-linkedin-square" target="_blank"><span
-                class="label">Linkedin</span></a></li>
-        <li><a href="mailto:hello@juanlizarazo.com?Subject=Hello from website" class="icon fa-envelope-o"><span
-                class="label">Email</span></a></li>
-    </ul>
-    <ul class="copyright">
-        <li>&copy; juan lizarazo 2016</li>
-    </ul>
+  <ul class="icons">
+    <li>
+      <a href="https://github.com/juanlizarazo" class="icon fa-github" target="_blank">
+        <span class="label">Github</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://linkedin.com/in/juanlizarazo" class="icon fa-linkedin-square" target="_blank">
+        <span class="label">Linkedin</span>
+      </a>
+    </li>
+    <li>
+      <a href="mailto:hello@juanlizarazo.com?Subject=message from juanlizarazo.com" class="icon fa-envelope-o">
+        <span class="label">Email</span>
+      </a>
+    </li>
+  </ul>
+  <ul class="copyright">
+    <li>&copy; juan lizarazo 2016</li>
+  </ul>
 </footer>
 
 <!-- Scripts -->
