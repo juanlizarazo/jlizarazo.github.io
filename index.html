@@ -38,11 +38,14 @@
         <div id="success-email-message"><b>Thank you for your message!! I'll get back to you soon.</b><br><br></div>
         <form method="post" action="http://formspree.io/hello@juanlizarazo.com">
           <div class="row uniform 50%">
-            <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name"/></div>
-            <div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email"/>
+            <div class="6u 12u$(xsmall)">
+              <input type="text" name="name" id="name" placeholder="Name" required/>
+            </div>
+            <div class="6u$ 12u$(xsmall)">
+              <input type="email" name="email" id="email" placeholder="Email" required/>
             </div>
             <div class="12u$">
-              <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+              <textarea name="message" id="message" placeholder="Message" rows="4" required></textarea>
             </div>
             <input type="hidden" name="_next" value="http://juanlizarazo.com/?email=success"/>
             <input type="hidden" name="_subject" value="message from juanlizarazo.com"/>
