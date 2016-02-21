@@ -2,4 +2,4 @@
 Juan Lizarazo
 Personal website
 
-&copy 2016
+&copy; 2016
