@@ -1,0 +1,11 @@
+{
+  "name": "juanlizarazo.com",
+  "version": "1.0.4",
+  "main": "index.js",
+  "repository": "git@github.com:juanlizarazo/juanlizarazo.github.io.git",
+  "author": "Juan Lizarazo <hello@juanlizarazo.com>",
+  "license": "UNLICENSEZD",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
